@@ -1,0 +1,20 @@
+# Onde colocar suas imagens
+
+Troque os arquivos dentro da pasta `images/` pelos seus (mantenha os MESMOS nomes,
+ou troque o nome dentro do .html se preferir outro nome de arquivo).
+
+## Logo e ícones (pequenos, ficam no topo e no rodapé)
+- images/logo.png            -> logo da Vorath (usado pequeno na barra superior e maior no topo da página)
+- images/icon-twitter.png    -> ícone do Twitter/X (rodapé)
+- images/icon-instagram.png -> ícone do Instagram (rodapé)
+- images/icon-tiktok.png     -> ícone do TikTok (rodapé)
+- images/icon-share.png     -> ícone de compartilhar (botão azul na página de produto)
+
+## Fotos de relógios (produto)
+- images/relogio-detalhe.jpg  -> foto grande na página de detalhe do produto (product-detail.html)
+- images/relogio-destaque.jpg -> foto do produto em destaque na página inicial (index.html)
+- images/relogio-01.jpg até images/relogio-06.jpg -> fotos usadas nos cards das grades de produto
+  (products.html, search-results.html, cart.html e na vitrine da index.html)
+
+Todas as imagens de relógio devem ser, de preferência, quadradas (1:1) — o CSS já
+corta (object-fit: cover) para preencher o espaço sem distorcer.
